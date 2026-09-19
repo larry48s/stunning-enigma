@@ -107,8 +107,27 @@ def ask(prompt, max_uses=6, search=True):
 
 def parse_json(t):
     m = re.search(r"<json>(.*?)</json>", t, re.S)
-    s = m.group(1) if m else re.search(r"(\{.*\}|\[.*\])", t, re.S).group(1)
-    return json.loads(s)
+    if m:
+        return json.loads(m.group(1))
+    m = re.search(r"(\{.*\}|\[.*\])", t, re.S)
+    if not m:
+        raise ValueError("no JSON in reply: " + t[:300])
+    return json.loads(m.group(1))
+
+def ask_json(prompt, max_uses=6, search=True):
+    """Ask, parse JSON. If the reply has no JSON, retry once, then repair without search."""
+    text = ""
+    for attempt in range(2):
+        text = ask(prompt + "\n\nYour FINAL message must contain the JSON inside <json></json> tags.",
+                   max_uses=max_uses, search=search)
+        try:
+            return parse_json(text)
+        except Exception as ex:
+            print("parse fail (attempt %d): %s | reply start: %r" % (attempt + 1, ex, text[:300]))
+    fixed = ask("Turn the answer below into the JSON requested by the instruction. "
+                "Return ONLY the JSON inside <json></json> tags. Use null for anything missing.\n\n"
+                "INSTRUCTION:\n" + prompt + "\n\nANSWER:\n" + (text or "(empty)"), search=False)
+    return parse_json(fixed)
 
 def norm(d):
     s = sum(d.values())
@@ -126,12 +145,13 @@ def kickoff_dt(e):
 
 # ---------------------------------------------------------------- fixtures
 def get_fixtures(today):
-    t = ask(f"""Today is {today} (UTC). List every football match kicking off in the next 30 hours
+    prompt = f"""Today is {today} (UTC). List every football match kicking off in the next 30 hours
 in these leagues only: {LEAGUES}. Use web search. Return ONLY JSON inside <json></json>:
 <json>[{{"league":"","home":"","away":"","kickoff_utc":"YYYY-MM-DDTHH:MM:00Z"}}]</json>
-If there are none, return <json>[]</json>.""", max_uses=5)
+If there are none, return <json>[]</json>."""
+    data = ask_json(prompt, max_uses=8)
     fx, seen = [], set()
-    for f in parse_json(t):
+    for f in data:
         key = (f["home"], f["away"])
         if key not in seen:
             seen.add(key); fx.append(f)
@@ -145,8 +165,8 @@ def fill(t, **kw):
 
 def analyse(f, today):
     kw = dict(DATE=today, HOME=f["home"], AWAY=f["away"], LEAGUE=f["league"], KICKOFF=f["kickoff_utc"])
-    dossier = parse_json(ask(fill(SCOUT, **kw), max_uses=10))
-    j = parse_json(ask(fill(COURT, **kw).replace("{DOSSIER}", json.dumps(dossier)), search=False))
+    dossier = ask_json(fill(SCOUT, **kw), max_uses=10)
+    j = ask_json(fill(COURT, **kw).replace("{DOSSIER}", json.dumps(dossier)), search=False)
     p = norm({"H": float(j["p_home"]), "D": float(j["p_draw"]), "A": float(j["p_away"])})
     o, so = dossier.get("odds") or {}, dossier.get("sharp_odds") or {}
     dq, fr = j.get("data_quality"), float(j.get("fragility") or 5)
@@ -183,11 +203,11 @@ def settle(ledger, now):
         batch = pend[i:i + 8]
         lst = "\n".join(f'{n}. {e["home"]} vs {e["away"]} ({e["league"]}, {e["kickoff"]})' for n, e in enumerate(batch))
         try:
-            res = parse_json(ask(f"""Find the final full-time scores (90 min, no penalties) of these football matches:
+            res = ask_json(f"""Find the final full-time scores (90 min, no penalties) of these football matches:
 {lst}
 Return ONLY JSON inside <json></json>:
 <json>[{{"n":0,"played":true,"home_goals":0,"away_goals":0}}]</json>
-Use played=false if postponed or not finished yet.""", max_uses=8))
+Use played=false if postponed or not finished yet.""", max_uses=8)
         except Exception as ex:
             print("settle error", ex); continue
         for r in res:
