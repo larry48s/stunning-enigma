@@ -1,1 +1,710 @@
-[]
+[
+ {
+  "date": "2026-09-19",
+  "league": "Premier League",
+  "home": "Tottenham Hotspur",
+  "away": "Aston Villa",
+  "kickoff": "2026-09-19T11:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.4973303593767467,
+   "D": 0.26237536797389444,
+   "A": 0.24029427264935882
+  },
+  "odds": {
+   "H": 1.91,
+   "D": 3.75,
+   "A": 3.8
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.47166517968837335,
+   "D": 0.2676876839869472,
+   "A": 0.2606471363246794
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "xG/points-vs-xPoints data missing, so Elo+market dominate. Sharp odds favor home slightly more than model; fatigue/narrative adjustments roughly cancel, yielding a near-toss-up with modest home edge.",
+  "against": "Spurs' attack (4 key absentees, no league goals) may not justify home edge if Villa's press exploits their fragile buildup.",
+  "kill": "Late scratch of Nicolas Jackson or Dominic Solanke, or Onana replacement injured pre-kickoff, cancels bet.",
+  "fr": 4.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "toward draw",
+  "views": {
+   "statistician": {
+    "H": 0.43,
+    "D": 0.26,
+    "A": 0.31
+   },
+   "regression": {
+    "H": 0.4,
+    "D": 0.27,
+    "A": 0.33
+   },
+   "market": {
+    "H": 0.4974,
+    "D": 0.2624,
+    "A": 0.2403
+   }
+  },
+  "inj": "Villa midfielder <cite index='63-4'>Amadou Onana is out with an ACL injury</cite>, a long-term blow to their engine room; Spurs still miss Kulusevski, Simons, Odobert and Mudryk in attack.",
+  "lineups": {
+   "home": "confirmed - 4-2-3-1: <cite index='1-1'>Anton\u00edn Kinsky, Pedro Porro, Jan Paul van Hecke, Micky van de Ven, Andy Robertson, Sandro Tonali, Rodrigo Bentancur, S\u00e1vio, Mateus Fernandes, Omar Marmoush, Dominic Solanke</cite>. Bench includes Maddison and Kudus. Absences: <cite index='38-10'>Dejan Kulusevski, Xavi Simons, Wilson Odobert and Mykhaylo Mudryk remain sidelined</cite>.",
+   "away": "confirmed - 4-2-3-1: <cite index='1-5'>Zion Suzuki, Aaron Wan-Bissaka, Victor Lindel\u00f6f, Tyrone Mings, Matteo Ruggeri, Boubacar Kamara, Jo\u00e3o Gomes, John McGinn, Emiliano Buend\u00eda, Johan Manzambi, Nicolas Jackson</cite>. Absences: <cite index='38-11'>Pau Torres, Leon Goretzka, Ian Maatsen, Marco Bizot, Brian Madjo and Amadou Onana</cite>."
+  },
+  "spread": 0.010000000000000009
+ },
+ {
+  "date": "2026-09-19",
+  "league": "Premier League",
+  "home": "Brighton & Hove Albion",
+  "away": "Arsenal",
+  "kickoff": "2026-09-19T11:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.1619376352892997,
+   "D": 0.2530275551395308,
+   "A": 0.5850348095711695
+  },
+  "odds": {
+   "H": 6.25,
+   "D": 4.0,
+   "A": 1.73
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.16646881764464985,
+   "D": 0.2500137775697654,
+   "A": 0.5835174047855847
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "Elo gap (222pts) and odds both favor Arsenal strongly; missing xG/sharp data widen uncertainty. Rest edge (+1d) and stable narrative slightly reinforce away lean.",
+  "against": "Saliba's absence and defensive reshuffle could destabilize Arsenal more than modeled, especially against Brighton's press at home.",
+  "kill": "Late scratch of \u00d8degaard, Saka, or further Arsenal defensive injury (e.g., Konsa/Timber) before kickoff.",
+  "fr": 4.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.2,
+    "D": 0.24,
+    "A": 0.56
+   },
+   "regression": {
+    "H": 0.18,
+    "D": 0.25,
+    "A": 0.57
+   },
+   "market": {
+    "H": 0.16,
+    "D": 0.25,
+    "A": 0.585
+   }
+  },
+  "inj": "Saliba's absence forces Arsenal's back-line reshuffle (Konsa/Timber in), a bigger structural risk than Brighton's multiple wide-attacker absences (Mitoma, Minteh, Hinshelwood, Ferguson) which mainly reduce squad depth.",
+  "lineups": {
+   "home": "confirmed (4-2-3-1): <cite index=\"5-1\">Bart Verbruggen, Ferdi Kadioglu, Luka Vuskovic, Pascal Struijk, Olivier Boscagli, Pascal Gro\u00df, Yasin Ayari, Diego G\u00f3mez, Chema Andr\u00e9s, Maxim De Cuyper, Charalampos Kostoulas</cite>. Absent: <cite index=\"7-8\">Femi Azeez, Michael Svoboda, Evan Ferguson, Zadok Yohanna, Mats Wieffer, Jack Hinshelwood, Kaoru Mitoma, Yankuba Minteh and Stefanos Tzimas remain absent as they continue their respective recoveries from injury</cite>.",
+   "away": "probable (4-2-3-1): <cite index=\"9-7\">Raya; Timber, Konsa, Gabriel, Calafiori; Guimar\u00e3es, Rice; Saka, \u00d8degaard, Tzolis; Havertz</cite>. <cite index=\"9-4\">All of their injury concerns come in the defensive third, with Ben White and Cristhian Mosquera serious doubts for the weekend, while William Saliba is definitely missing</cite>. <cite index=\"9-5\">Piero Hincapi\u00e9 also sat out the win at Portman Road, but Arteta hinted at fatigue being the reason behind is omission</cite>."
+  },
+  "spread": 0.039195979899497496
+ },
+ {
+  "date": "2026-09-19",
+  "league": "Premier League",
+  "home": "Everton",
+  "away": "Ipswich Town",
+  "kickoff": "2026-09-19T11:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.5364327223960662,
+   "D": 0.24541797049620032,
+   "A": 0.2181493071077336
+  },
+  "odds": {
+   "H": 1.83,
+   "D": 4.0,
+   "A": 4.5
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.508216361198033,
+   "D": 0.25270898524810015,
+   "A": 0.2390746535538668
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No usable xG/Elo/xPoints data; relied on league-average priors and current no-vig market odds, lightly fatigue-adjusted for Everton's one fewer rest day.",
+  "against": "Stale/missing xG and Elo mean the home-favorite edge is mostly market-derived; Ipswich's attacking upside could easily overturn a thin margin.",
+  "kill": "Grealish, Dewsbury-Hall, or Enciso/Fatawu ruled out matchday-morning; midfield cover (R\u00f6hl/N\u00f8rgaard/Taylor) status changes.",
+  "fr": 4.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.46,
+    "D": 0.27,
+    "A": 0.27
+   },
+   "regression": {
+    "H": 0.46,
+    "D": 0.27,
+    "A": 0.27
+   },
+   "market": {
+    "H": 0.536,
+    "D": 0.245,
+    "A": 0.218
+   }
+  },
+  "inj": "Everton's Christian N\u00f8rgaard (groin) and Merlin R\u00f6hl weaken midfield cover; Ipswich miss Jack Taylor (knee), reducing central control and build-up options.",
+  "lineups": {
+   "home": "confirmed - Everton (4-2-3-1): Pickford; Maitland-Niles, Tarkowski, Branthwaite, Mykolenko; Armstrong, Garner; Johnson, Dewsbury-Hall, Grealish; Barry. Absences: R\u00f6hl, N\u00f8rgaard",
+   "away": "confirmed - Ipswich Town (4-2-3-1): Walton; Ouattara, Diop, O'Shea, Davis; Luki\u0107, Palacios; Fatawu, Enciso, Clarke; Emersonn. Absences: Taylor, Matusiwa"
+  },
+  "spread": 0.051781781781781805
+ },
+ {
+  "date": "2026-09-19",
+  "league": "Premier League",
+  "home": "Newcastle United",
+  "away": "Hull City",
+  "kickoff": "2026-09-19T11:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.6004004425944465,
+   "D": 0.22061225565098266,
+   "A": 0.17898730175457087
+  },
+  "odds": {
+   "H": 1.58,
+   "D": 4.3,
+   "A": 5.3
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.5652002212972232,
+   "D": 0.2303061278254913,
+   "A": 0.20449365087728544
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No Elo/xG splits force league-average shrinkage; market drift (1.48\u21921.58) and confirmed Newcastle absences (Elanga, Gonzalez, late Livramento out) justify trimming home edge toward draw/away, but sharp price still favors Newcastle.",
+  "against": "Market drift toward away may reflect real info (injuries) the blend underweights, meaning Newcastle's edge could be smaller than 53%.",
+  "kill": "If Belloumi is a late scratch or Newcastle suffers another defensive withdrawal pre-kickoff, cancel the home lean.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "toward away",
+  "views": {
+   "statistician": {
+    "H": 0.5,
+    "D": 0.26,
+    "A": 0.24
+   },
+   "regression": {
+    "H": 0.5,
+    "D": 0.26,
+    "A": 0.24
+   },
+   "market": {
+    "H": 0.61,
+    "D": 0.21,
+    "A": 0.18
+   }
+  },
+  "inj": "Newcastle missing Elanga (top scorer/direct outlet) and Nico Gonzalez (concussion, midfield control); Hull missing several defenders/midfielders but keep in-form scorer Belloumi, limiting defensive impact.",
+  "lineups": {
+   "home": "confirmed - Hornicek; L.Miley, Thiaw, Botman, Hall; Steur, Willock; Murphy, Barnes, Fernandez-Pardo; Wissa. Absent: Joelinton, Dan Burn, Anthony Elanga, William Osula, Amar Dedic, Nico Gonzalez, Jacob Ramsey, Tino Livramento (late withdrawal)",
+   "away": "probable (not yet officially confirmed at time of scouting) - Tzolakis; Ajayi, Egan, Herrington; Coyle, Slater, Crooks, Giles; Belloumi, Stroud; McBurnie. Absent: Matthew Targett, Jack Butland, Charlie Hughes, Nampalys/Nobel Mendy, Darko Gyabi, Eliot Matazo, Hidemasa Morita, Ilyas Ansah; Paddy McNair doubtful"
+  },
+  "spread": 0.06
+ },
+ {
+  "date": "2026-09-19",
+  "league": "Premier League",
+  "home": "Nottingham Forest",
+  "away": "Coventry City",
+  "kickoff": "2026-09-19T16:30:00Z",
+  "status": "pending",
+  "pick": "A",
+  "pm": {
+   "H": 0.5849137821892487,
+   "D": 0.23535816473805482,
+   "A": 0.17972805307269643
+  },
+  "odds": {
+   "H": 1.69,
+   "D": 4.2,
+   "A": 5.5
+  },
+  "ev": 0.16280128756994916,
+  "kelly": 0.004522257988054144,
+  "pick_odds": 5.5,
+  "p": {
+   "H": 0.5359741346567746,
+   "D": 0.25260744942141644,
+   "A": 0.21141841592180893
+  },
+  "tries": 0,
+  "conf": "medium",
+  "why": "Small 4-game xG sample favors Forest home attack vs weak Coventry defense; market shortening on Forest confirms edge, tempered by missing Milenkovic and Coventry's fatigue disadvantage.",
+  "against": "Forest's home form is inconsistent and Milenkovic's absence weakens defense\u2014small sample xG could overstate true home strength.",
+  "kill": "Milenkovic returns early or Coventry sign/field a fit replacement striker reversing their goalless run pre-kickoff.",
+  "fr": 6.0,
+  "dq": "medium",
+  "reg": "none",
+  "move": "toward home",
+  "views": {
+   "statistician": {
+    "H": 0.47,
+    "D": 0.25,
+    "A": 0.28
+   },
+   "regression": {
+    "H": 0.45,
+    "D": 0.27,
+    "A": 0.28
+   },
+   "market": {
+    "H": 0.585,
+    "D": 0.235,
+    "A": 0.18
+   }
+  },
+  "inj": "Forest missing CB Milenkovic (hamstring); Coventry without suspended striker Awoniyi, their top forward and ex-Forest man, facing his old club.",
+  "lineups": {
+   "home": "confirmed 3-4-2-1: Sels; Jair Cunha, Diomande, Murillo; Munoz, Schlager, McAtee, Williams; Gibbs-White (c), Ndoye; Delap. Milenkovic (hamstring) and Savona unavailable.",
+   "away": "confirmed 3-4-3: Rushworth; Mfuni, Thomas, Pinnock; Yirenkyi, Onyeka, Grimes, Dasilva; Rudoni, Thomas-Asante, Mason-Clark. Awoniyi suspended; Woolfenden, Eccles, Amenda unavailable."
+  },
+  "spread": 0.10000000000000003
+ },
+ {
+  "date": "2026-09-19",
+  "league": "Premier League",
+  "home": "AFC Bournemouth",
+  "away": "Liverpool",
+  "kickoff": "2026-09-20T13:00:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.31295487627365354,
+   "D": 0.25036390101892286,
+   "A": 0.43668122270742354
+  },
+  "odds": {
+   "H": 3.0,
+   "D": 3.75,
+   "A": 2.15
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.2964774381368268,
+   "D": 0.25518195050946146,
+   "A": 0.4483406113537118
+  },
+  "tries": 0,
+  "conf": "medium",
+  "why": "Elo gap (302pts) and market both favor Liverpool strongly; missing xG/sharp odds/points-vs-xPoints force shrinkage; fatigue (3 vs 5 rest days, midweek Europe) nudges further toward away.",
+  "against": "Bournemouth's Iraola-return emotion, home resilience, and Liverpool's Gakpo doubt could compress the away edge more than modeled.",
+  "kill": "Isak or Wirtz ruled out of starting XI just before kickoff",
+  "fr": 3.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "toward away",
+  "views": {
+   "statistician": {
+    "H": 0.28,
+    "D": 0.27,
+    "A": 0.45
+   },
+   "regression": {
+    "H": 0.31,
+    "D": 0.25,
+    "A": 0.44
+   },
+   "market": {
+    "H": 0.313,
+    "D": 0.251,
+    "A": 0.436
+   }
+  },
+  "inj": "Bournemouth missing four attacking/defensive pieces (Kroupi, Araujo, Adli, Milosavljevic) thins Rose's options; Liverpool's four long-term absentees (Bradley, Leoni, Chiesa, Ekitike) less impactful given Isak's hot scoring form.",
+  "lineups": {
+   "home": "Probable (4-4-2): <cite index=\"39-10\">Petrovic Smith Hill Silva Truffert Cooke Scott Rayan Kluivert Christie Evanilson</cite>. <cite index=\"39-9\">The Cherries remain without the injured Veljko Milosavljevic, Julian Araujo, Amine Adli and Eli Kroupi.</cite> Tyler Adams a rotation doubt after being <cite index=\"45-9,45-10\">taken out of the team... he was taken off after an hour against Real Sociedad on Thursday in the Europa League</cite>.",
+   "away": "Probable (4-3-3): <cite index=\"57-1\">Alisson back in goal, Virgil van Dijk and Jeremy Jacquet in the heart of defence and Alexander Isak and Florian Wirtz in attack</cite>, with <cite index=\"62-1\">Mac Allister and Szoboszlai controlling tempo from deeper positions</cite>. <cite index=\"39-11\">No new injury worries, but remain without four players: Conor Bradley, Giovanni Leoni, Federico Chiesa and Hugo Ekitike.</cite> <cite index=\"40-8,40-9\">Gakpo's groin injury creates uncertainty on the left side... FotMob lists the Netherlands international as doubtful.</cite>"
+  },
+  "spread": 0.014000000000000012
+ },
+ {
+  "date": "2026-09-19",
+  "league": "Premier League",
+  "home": "Leeds United",
+  "away": "Crystal Palace",
+  "kickoff": "2026-09-20T13:00:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.5254373933346596,
+   "D": 0.24919117570071936,
+   "A": 0.22537143096462114
+  },
+  "odds": {
+   "H": 1.75,
+   "D": 3.69,
+   "A": 4.08
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.5077186966673297,
+   "D": 0.2545955878503597,
+   "A": 0.23768571548231057
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "Missing Elo, xG splits and sharp odds force heavy shrinkage; market/rest/fatigue favor Leeds, but leaky home defense (2.2 xGA) and Palace's returning attackers temper the favorite lean.",
+  "against": "Palace's Sarr/Nketiah return plus Leeds' porous home defense could easily flip this short-priced favorite result.",
+  "kill": "If Sarr or Nketiah is ruled out late (fatigue/injury from Europa turnaround), or Leeds GK/CB pairing changes, void bet.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "toward home",
+  "views": {
+   "statistician": {
+    "H": 0.46,
+    "D": 0.25,
+    "A": 0.29
+   },
+   "regression": {
+    "H": 0.45,
+    "D": 0.27,
+    "A": 0.28
+   },
+   "market": {
+    "H": 0.54,
+    "D": 0.24,
+    "A": 0.22
+   }
+  },
+  "inj": "Palace missing starting GK Henderson, main striker Mateta and CB Disasi (suspension) badly weakens a defence already conceding heavily; Leeds only missing wide options Wilson/Rodon.",
+  "lineups": {
+   "home": "probable \u2013 Daniel Farke confirmed Harry Wilson (quad) ruled out; Joe Rodon has missed the last three games with a hamstring injury. Rest of first-choice XI expected available.",
+   "away": "probable \u2013 Confirmed absentees: Dean Henderson (ankle/foot), Jean-Philippe Mateta (hamstring/thigh, out until after international break), Chadi Riad (knee/ACL, out for season) and Axel Disasi (suspended, red card v Ipswich). Ismaila Sarr and Eddie Nketiah returned from injury in midweek Europa League win."
+  },
+  "spread": 0.06999999999999998
+ },
+ {
+  "date": "2026-09-19",
+  "league": "Premier League",
+  "home": "Manchester City",
+  "away": "Sunderland",
+  "kickoff": "2026-09-20T13:00:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.7320024546465693,
+   "D": 0.1657845280558432,
+   "A": 0.10221301729758756
+  },
+  "odds": {
+   "H": 1.3,
+   "D": 5.74,
+   "A": 9.31
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.6510012273232846,
+   "D": 0.1928922640279216,
+   "A": 0.15610650864879377
+  },
+  "tries": 0,
+  "conf": "medium",
+  "why": "Thin 4-game xG sample gives near-even model, but market (1.30/5.74/9.31) implies strong City edge; Foden suspension, Doku doubt, and line drift toward away justify pulling final below raw market price.",
+  "against": "City's squad depth and home dominance could easily overwhelm Sunderland regardless of two absences, making the discount overcautious.",
+  "kill": "Erling Haaland ruled out or Sunderland confirm weakened defensive lineup pre-kickoff",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "toward away",
+  "views": {
+   "statistician": {
+    "H": 0.49,
+    "D": 0.25,
+    "A": 0.26
+   },
+   "regression": {
+    "H": 0.49,
+    "D": 0.25,
+    "A": 0.26
+   },
+   "market": {
+    "H": 0.72,
+    "D": 0.17,
+    "A": 0.11
+   }
+  },
+  "inj": "Phil Foden suspended (red card) removes a key creative/attacking option for City; Jeremy Doku doubtful with calf injury also weakens wide options.",
+  "lineups": {
+   "home": "probable - <cite index=\"4-8\">Probable Manchester City Lineup (4-2-3-1): Donnarumma; Nunes, Dias, Guehi, Gvardiol; Anderson, Fernandez; Ndiaye, Cherki, Semenyo; Haaland</cite>. Foden suspended.",
+   "away": "probable - Sunderland expected 4-2-3-1 with Robin Roefs in goal per predicted lineup services; no official confirmation yet."
+  },
+  "spread": 0.15000000000000002
+ },
+ {
+  "date": "2026-09-19",
+  "league": "Premier League",
+  "home": "Fulham",
+  "away": "Manchester United",
+  "kickoff": "2026-09-20T15:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.27832800815064834,
+   "D": 0.2510690795173375,
+   "A": 0.4706029123320142
+  },
+  "odds": {
+   "H": 3.5,
+   "D": 3.88,
+   "A": 2.07
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.3016640040753242,
+   "D": 0.24553453975866874,
+   "A": 0.4528014561660071
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "Small-sample xG (4 games) inflates home-win signal; sharp market (1.91 away) already prices United's key absences, so final leans toward market with modest home tilt from rest edge and Fulham's defensive form.",
+  "against": "Sharp bettors moved line toward United despite same public injury news, implying insider knowledge that Fulham's home edge is overstated by thin xG sample.",
+  "kill": "If Sessegnon/Tete start despite doubt, or De Ligt/Ugarte/Baleba unexpectedly return for United, cancel bet.",
+  "fr": 5.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "toward away",
+  "views": {
+   "statistician": {
+    "H": 0.39,
+    "D": 0.25,
+    "A": 0.36
+   },
+   "regression": {
+    "H": 0.38,
+    "D": 0.25,
+    "A": 0.37
+   },
+   "market": {
+    "H": 0.287,
+    "D": 0.202,
+    "A": 0.511
+   }
+  },
+  "inj": "United missing De Ligt, Ugarte and Baleba weakens midfield/defensive solidity; Fulham without Cairney and Tete reduces control and right-back cover, raising counter-attack risk.",
+  "lineups": {
+   "home": "probable - Arbeloa expected 4-3-3 with Leno in goal; Sander Berge/Alex Iwobi central midfield; Rodrigo Muniz/Oscar Bobb/Josh King in attack; missing Kenny Tete (injury/concussion) and Tom Cairney (knee surgery, out); Ryan Sessegnon doubtful",
+   "away": "probable - Carrick expected to start Senne Lammens in goal behind a back four/three incl. Dorgu, Lisandro Martinez, Maguire, Mazraoui (Shaw possible); Mainoo-Tielemans double pivot; missing De Ligt, Amad Diallo, Tom Heaton, Manuel Ugarte and Carlos Baleba, all out injured"
+  },
+  "spread": 0.10300000000000004
+ },
+ {
+  "date": "2026-09-19",
+  "league": "La Liga",
+  "home": "Osasuna",
+  "away": "Rayo Vallecano",
+  "kickoff": "2026-09-19T12:00:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.42285270112708895,
+   "D": 0.27982899339292655,
+   "A": 0.29731830547998445
+  },
+  "odds": {
+   "H": 2.25,
+   "D": 3.4,
+   "A": 3.2
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.41717635056354446,
+   "D": 0.28116449669646326,
+   "A": 0.3016591527399922
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No Elo/xG/points-vs-xPoints data; relied mainly on market odds devig with slight home prior, tempered by fatigue (away better rested) and Osasuna's 3-game losing skid narrative.",
+  "against": "Osasuna's collapse (4-0 loss, 3 straight defeats) may mean market still overrates home edge absent real xG confirmation.",
+  "kill": "Confirmed Moi Gomez AND Rosier both ruled out, or Camello scratched pre-kickoff for Rayo.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.44,
+    "D": 0.28,
+    "A": 0.28
+   },
+   "regression": {
+    "H": 0.43,
+    "D": 0.29,
+    "A": 0.28
+   },
+   "market": {
+    "H": 0.4229,
+    "D": 0.2799,
+    "A": 0.2973
+   }
+  },
+  "inj": "Osasuna missing Herrando/Oroz weakens midfield-defense; Rayo without Luiz Felipe, Nteka, Batalla thins defense/creativity, though Camello remains fit and firing.",
+  "lineups": {
+   "home": "probable (4-2-3-1): Herrera; Arguibide, Yeboah/Boyomo, Catena, Rico; Moncayola, Iker Mu\u00f1oz; R.Garc\u00eda, Ra\u00fal Garc\u00eda, Barja; Budimir. <cite index=\"3-1\">Osasuna will again be missing Jorge Herrando and Aimar Oroz through injury, while Moi Gomez and Valentin Rosier remain major doubts for the home side in this contest.</cite>",
+   "away": "probable (4-3-3): Audero; Ratiu, Lejeune, Sadick, Pedrosa; Unai L\u00f3pez, Ciss, Pedro D\u00edaz; Tsitaishvili/de Frutos, Camello, \u00c1lvaro Garc\u00eda. <cite index=\"39-11\">Rayo Vallecano arrive at 3.20 as underdogs burdened by a leaky defence and a heavily depleted squad, with Luiz Felipe, Nteka, and Batalla all ruled out, severely weakening both their backline and attacking options.</cite>"
+  },
+  "spread": 0.017270272972702727
+ },
+ {
+  "date": "2026-09-19",
+  "league": "La Liga",
+  "home": "Athletic Club",
+  "away": "Alav\u00e9s",
+  "kickoff": "2026-09-19T14:15:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.5852842809364548,
+   "D": 0.23411371237458195,
+   "A": 0.1806020066889632
+  },
+  "odds": {
+   "H": 1.62,
+   "D": 4.05,
+   "A": 5.25
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.5461421404682274,
+   "D": 0.24305685618729098,
+   "A": 0.2108010033444816
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No xG/Elo data; relied on market odds (line moved toward home) blended with neutral home-advantage prior; both teams have defensive uncertainty from CB absences/lineup conflicts.",
+  "against": "Market may already overprice Athletic given Alav\u00e9s' underlying defensive quality despite two ACL absences and short-trip fatigue is negligible.",
+  "kill": "If Yeray \u00c1lvarez or Laporte is ruled out late, forcing an unfamiliar CB pairing, cancel the home bet.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "toward home",
+  "views": {
+   "statistician": {
+    "H": 0.45,
+    "D": 0.27,
+    "A": 0.28
+   },
+   "regression": {
+    "H": 0.45,
+    "D": 0.27,
+    "A": 0.28
+   },
+   "market": {
+    "H": 0.585,
+    "D": 0.234,
+    "A": 0.181
+   }
+  },
+  "inj": "Athletic missing CB Dani Vivian and Eguiluz thins defense; Alav\u00e9s without CB Facundo Garc\u00e9s and Mikel Rodr\u00edguez (ACL) weakens their league-best defensive record.",
+  "lineups": {
+   "home": "probable 4-2-3-1: Unai Sim\u00f3n; Jes\u00fas Areso, Yeray \u00c1lvarez, Aymeric Laporte, Yuri Berchiche; \u00cd\u00f1igo Ruiz de Galarreta, Be\u00f1at Gerenabarrena; Robert Navarro, Oihan Sancet, Nico Williams; I\u00f1aki Williams. Absent: Dani Vivian, Unai Eguiluz (injury); some reports also list Gorka Guruzeta and Peio Canales as out, though one confirmed-XI source has Yeray \u00c1lvarez starting, creating minor source conflict.",
+   "away": "probable 3-5-2: Antonio Sivera; Nahuel Tenaglia, Ville Koski/centre-back rotation, Jonny Otto; \u00c1ngel P\u00e9rez, Ander Guevara, Antonio Blanco, Carles Ale\u00f1\u00e0, Youssef En-Nesyri/Enr\u00edquez; Toni Mart\u00ednez/Mariano D\u00edaz, Lucas Boy\u00e9. Absent: Facundo Garc\u00e9s, Mikel Rodr\u00edguez (both long-term injury, reported as ACL)."
+  },
+  "spread": 0.09900000000000003
+ },
+ {
+  "date": "2026-09-19",
+  "league": "La Liga",
+  "home": "Celta Vigo",
+  "away": "Racing Santander",
+  "kickoff": "2026-09-19T16:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.5152510262077675,
+   "D": 0.24597410798863273,
+   "A": 0.23877486580359963
+  },
+  "odds": {
+   "H": 1.9,
+   "D": 3.98,
+   "A": 4.1
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.4676255131038838,
+   "D": 0.2629870539943164,
+   "A": 0.2693874329017998
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No xG/Elo data; relied on market odds tempered by Aspas absence, Celta's rest disadvantage/midweek Europe fatigue, and 7-game winless run.",
+  "against": "Market may already price Aspas absence and rest disadvantage; further discounting home could overcorrect vs sharp price.",
+  "kill": "Aspas unexpectedly starts, or Zabiri ruled out for Racing - reassess immediately.",
+  "fr": 7.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.42,
+    "D": 0.28,
+    "A": 0.3
+   },
+   "regression": {
+    "H": 0.42,
+    "D": 0.28,
+    "A": 0.3
+   },
+   "market": {
+    "H": 0.515,
+    "D": 0.246,
+    "A": 0.239
+   }
+  },
+  "inj": "Iago Aspas out (Celta's talisman, until mid-Oct) blunts hosts' attack; Racing missing Andr\u00e9s Mart\u00edn, but Almeida returns from suspension boosting midfield.",
+  "lineups": {
+   "home": "confirmed (FotMob) 3-4-3: Radu; N\u00fa\u00f1ez, Lago, C\u00e1ceres; Rueda, Rom\u00e1n, Moriba, \u00c1lvarez; Gonz\u00e1lez, Jutgl\u00e0, Swedberg. Absent: Aspas (injury, out till mid-Oct), El-Abdellaoui/Anta\u00f1\u00f3n (injury)",
+   "away": "confirmed/probable (FotMob/press) 4-2-3-1: Agirrezabala; Mantilla, Ram\u00f3n, Belocian, Salinas; Almeida, Mart\u00edn; Garc\u00eda, Canales, Vicente; Zabiri. Absent: Andr\u00e9s Mart\u00edn (injury), Eriksson & Pedro Felipe (doubts/injury)"
+  },
+  "spread": 0.061
+ }
+]
