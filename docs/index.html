@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Football Agent</title><style>
+:root{--bg:#fff;--fg:#111;--mut:#666;--card:#f3f4f6;--g:#16a34a;--r:#dc2626}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1115;--fg:#eee;--mut:#9aa;--card:#1a1d24}}
+body{font:15px system-ui,sans-serif;background:var(--bg);color:var(--fg);margin:0;padding:14px;max-width:720px;margin:auto}
+h1{font-size:20px}h2{font-size:16px;margin:22px 0 8px}
+.g{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.c{background:var(--card);border-radius:10px;padding:10px;margin-bottom:8px}
+.k{font-size:12px;color:var(--mut)}.v{font-size:18px;font-weight:600}
+.bet{color:var(--g);font-weight:600}.pass{color:var(--mut)}.w{color:var(--g)}.l{color:var(--r)}
+table{width:100%;border-collapse:collapse;font-size:13px}td{padding:5px 3px;border-bottom:1px solid var(--card)}
+</style></head><body><h1>⚽ Football agent</h1><div id=app></div><script>
+const D={"today": "2026-09-19", "ledger": [], "stats": {"settled": 0, "bets": 0, "wins": 0, "flat_profit": 0, "roi": null, "bankroll": 100.0, "brier_model": null, "brier_market": null, "by_league": {}}};const f=(x,d=1)=>x==null?'–':x.toFixed(d);const pc=x=>Math.round(x*100)+'%';
+const s=D.stats;let h='<h2>Track record (paper)</h2><div class=g>';
+const box=(k,v)=>h+='<div class=c><div class=k>'+k+'</div><div class=v>'+v+'</div></div>';
+box('Bets settled',s.bets+' ('+s.wins+' won)');box('Flat ROI',s.roi==null?'–':f(s.roi*100)+'%');box('Kelly bankroll',f(s.bankroll));
+box('Flat P/L (units)',f(s.flat_profit,2));box('Brier model',f(s.brier_model,3));box('Brier market',f(s.brier_market,3));
+h+='</div><div class=k>Lower Brier is better. If model is not below market over 100+ games, the model has no edge.</div>';
+const today=D.ledger.filter(e=>e.date==D.today);
+h+='<h2>Today ('+D.today+') - '+today.length+' matches</h2>';
+today.forEach(e=>{h+='<div class=c><div class=k>'+e.league+' - '+e.kickoff.replace('T',' ').slice(0,16)+' UTC</div><b>'+e.home+' vs '+e.away+'</b><br>'+
+'H '+pc(e.p.H)+' D '+pc(e.p.D)+' A '+pc(e.p.A)+(e.odds?' | odds '+e.odds.H+' / '+e.odds.D+' / '+e.odds.A:' | no odds')+'<br>'+
+(e.pick?'<span class=bet>BET '+({H:e.home,D:'Draw',A:e.away})[e.pick]+' @'+e.pick_odds+' - EV +'+f(e.ev*100)+'% - stake '+f(e.kelly*100)+'%</span>':'<span class=pass>Pass</span>')+
+'<div class=k>'+(e.conf||'')+' conf. '+(e.why||'')+(e.inj?' Injuries: '+e.inj:'')+(e.against?' Risk: '+e.against:'')+(e.pick&&e.kill?' Cancel if: '+e.kill:'')+(e.fr!=null?' Fragility '+e.fr+'/10.':'')+'</div></div>'});
+const hist=D.ledger.filter(e=>e.status=='settled'&&e.pick).slice(-60).reverse();
+h+='<h2>Settled bets</h2><table>'+hist.map(e=>'<tr><td>'+e.date.slice(5)+'</td><td>'+e.home+' - '+e.away+'</td><td>'+e.score+'</td><td>'+e.pick+'@'+e.pick_odds+'</td><td class='+(e.profit>0?'w':'l')+'>'+(e.profit>0?'+':'')+f(e.profit,2)+'</td></tr>').join('')+'</table>';
+document.getElementById('app').innerHTML=h;</script></body></html>
