@@ -5,7 +5,7 @@
   "home": "Tottenham Hotspur",
   "away": "Aston Villa",
   "kickoff": "2026-09-19T11:30:00Z",
-  "status": "pending",
+  "status": "settled",
   "pick": null,
   "pm": {
    "H": 0.4973303593767467,
@@ -25,7 +25,7 @@
    "D": 0.2676876839869472,
    "A": 0.2606471363246794
   },
-  "tries": 0,
+  "tries": 1,
   "conf": "low",
   "why": "xG/points-vs-xPoints data missing, so Elo+market dominate. Sharp odds favor home slightly more than model; fatigue/narrative adjustments roughly cancel, yielding a near-toss-up with modest home edge.",
   "against": "Spurs' attack (4 key absentees, no league goals) may not justify home edge if Villa's press exploits their fragile buildup.",
@@ -56,7 +56,11 @@
    "home": "confirmed - 4-2-3-1: <cite index='1-1'>Anton\u00edn Kinsky, Pedro Porro, Jan Paul van Hecke, Micky van de Ven, Andy Robertson, Sandro Tonali, Rodrigo Bentancur, S\u00e1vio, Mateus Fernandes, Omar Marmoush, Dominic Solanke</cite>. Bench includes Maddison and Kudus. Absences: <cite index='38-10'>Dejan Kulusevski, Xavi Simons, Wilson Odobert and Mykhaylo Mudryk remain sidelined</cite>.",
    "away": "confirmed - 4-2-3-1: <cite index='1-5'>Zion Suzuki, Aaron Wan-Bissaka, Victor Lindel\u00f6f, Tyrone Mings, Matteo Ruggeri, Boubacar Kamara, Jo\u00e3o Gomes, John McGinn, Emiliano Buend\u00eda, Johan Manzambi, Nicolas Jackson</cite>. Absences: <cite index='38-11'>Pau Torres, Leon Goretzka, Ian Maatsen, Marco Bizot, Brian Madjo and Amadou Onana</cite>."
   },
-  "spread": 0.010000000000000009
+  "spread": 0.010000000000000009,
+  "score": "2-3",
+  "outcome": "A",
+  "brier": 0.8407673949136585,
+  "brier_mkt": 0.8933311122466072
  },
  {
   "date": "2026-09-19",
@@ -64,7 +68,7 @@
   "home": "Brighton & Hove Albion",
   "away": "Arsenal",
   "kickoff": "2026-09-19T11:30:00Z",
-  "status": "pending",
+  "status": "settled",
   "pick": null,
   "pm": {
    "H": 0.1619376352892997,
@@ -84,7 +88,7 @@
    "D": 0.2500137775697654,
    "A": 0.5835174047855847
   },
-  "tries": 0,
+  "tries": 1,
   "conf": "low",
   "why": "Elo gap (222pts) and odds both favor Arsenal strongly; missing xG/sharp data widen uncertainty. Rest edge (+1d) and stable narrative slightly reinforce away lean.",
   "against": "Saliba's absence and defensive reshuffle could destabilize Arsenal more than modeled, especially against Brighton's press at home.",
@@ -115,7 +119,11 @@
    "home": "confirmed (4-2-3-1): <cite index=\"5-1\">Bart Verbruggen, Ferdi Kadioglu, Luka Vuskovic, Pascal Struijk, Olivier Boscagli, Pascal Gro\u00df, Yasin Ayari, Diego G\u00f3mez, Chema Andr\u00e9s, Maxim De Cuyper, Charalampos Kostoulas</cite>. Absent: <cite index=\"7-8\">Femi Azeez, Michael Svoboda, Evan Ferguson, Zadok Yohanna, Mats Wieffer, Jack Hinshelwood, Kaoru Mitoma, Yankuba Minteh and Stefanos Tzimas remain absent as they continue their respective recoveries from injury</cite>.",
    "away": "probable (4-2-3-1): <cite index=\"9-7\">Raya; Timber, Konsa, Gabriel, Calafiori; Guimar\u00e3es, Rice; Saka, \u00d8degaard, Tzolis; Havertz</cite>. <cite index=\"9-4\">All of their injury concerns come in the defensive third, with Ben White and Cristhian Mosquera serious doubts for the weekend, while William Saliba is definitely missing</cite>. <cite index=\"9-5\">Piero Hincapi\u00e9 also sat out the win at Portman Road, but Arteta hinted at fatigue being the reason behind is omission</cite>."
   },
-  "spread": 0.039195979899497496
+  "spread": 0.039195979899497496,
+  "score": "3-0",
+  "outcome": "H",
+  "brier": 1.097773682621116,
+  "brier_mkt": 1.1086371992143536
  },
  {
   "date": "2026-09-19",
@@ -123,7 +131,7 @@
   "home": "Everton",
   "away": "Ipswich Town",
   "kickoff": "2026-09-19T11:30:00Z",
-  "status": "pending",
+  "status": "settled",
   "pick": null,
   "pm": {
    "H": 0.5364327223960662,
@@ -143,7 +151,7 @@
    "D": 0.25270898524810015,
    "A": 0.2390746535538668
   },
-  "tries": 0,
+  "tries": 1,
   "conf": "low",
   "why": "No usable xG/Elo/xPoints data; relied on league-average priors and current no-vig market odds, lightly fatigue-adjusted for Everton's one fewer rest day.",
   "against": "Stale/missing xG and Elo mean the home-favorite edge is mostly market-derived; Ipswich's attacking upside could easily overturn a thin margin.",
@@ -174,7 +182,11 @@
    "home": "confirmed - Everton (4-2-3-1): Pickford; Maitland-Niles, Tarkowski, Branthwaite, Mykolenko; Armstrong, Garner; Johnson, Dewsbury-Hall, Grealish; Barry. Absences: R\u00f6hl, N\u00f8rgaard",
    "away": "confirmed - Ipswich Town (4-2-3-1): Walton; Ouattara, Diop, O'Shea, Davis; Luki\u0107, Palacios; Fatawu, Enciso, Clarke; Emersonn. Absences: Taylor, Matusiwa"
   },
-  "spread": 0.051781781781781805
+  "spread": 0.051781781781781805,
+  "score": "1-0",
+  "outcome": "H",
+  "brier": 0.36286966859032943,
+  "brier_mkt": 0.32271372129918074
  },
  {
   "date": "2026-09-19",
@@ -182,7 +194,7 @@
   "home": "Newcastle United",
   "away": "Hull City",
   "kickoff": "2026-09-19T11:30:00Z",
-  "status": "pending",
+  "status": "settled",
   "pick": null,
   "pm": {
    "H": 0.6004004425944465,
@@ -202,7 +214,7 @@
    "D": 0.2303061278254913,
    "A": 0.20449365087728544
   },
-  "tries": 0,
+  "tries": 1,
   "conf": "low",
   "why": "No Elo/xG splits force league-average shrinkage; market drift (1.48\u21921.58) and confirmed Newcastle absences (Elanga, Gonzalez, late Livramento out) justify trimming home edge toward draw/away, but sharp price still favors Newcastle.",
   "against": "Market drift toward away may reflect real info (injuries) the blend underweights, meaning Newcastle's edge could be smaller than 53%.",
@@ -233,7 +245,11 @@
    "home": "confirmed - Hornicek; L.Miley, Thiaw, Botman, Hall; Steur, Willock; Murphy, Barnes, Fernandez-Pardo; Wissa. Absent: Joelinton, Dan Burn, Anthony Elanga, William Osula, Amar Dedic, Nico Gonzalez, Jacob Ramsey, Tino Livramento (late withdrawal)",
    "away": "probable (not yet officially confirmed at time of scouting) - Tzolakis; Ajayi, Egan, Herrington; Coyle, Slater, Crooks, Giles; Belloumi, Stroud; McBurnie. Absent: Matthew Targett, Jack Butland, Charlie Hughes, Nampalys/Nobel Mendy, Darko Gyabi, Eliot Matazo, Hidemasa Morita, Ilyas Ansah; Paddy McNair doubtful"
   },
-  "spread": 0.06
+  "spread": 0.06,
+  "score": "2-1",
+  "outcome": "H",
+  "brier": 0.2839094133230763,
+  "brier_mkt": 0.24038602781151064
  },
  {
   "date": "2026-09-19",
@@ -241,7 +257,7 @@
   "home": "Nottingham Forest",
   "away": "Coventry City",
   "kickoff": "2026-09-19T16:30:00Z",
-  "status": "pending",
+  "status": "settled",
   "pick": "A",
   "pm": {
    "H": 0.5849137821892487,
@@ -261,7 +277,7 @@
    "D": 0.25260744942141644,
    "A": 0.21141841592180893
   },
-  "tries": 0,
+  "tries": 1,
   "conf": "medium",
   "why": "Small 4-game xG sample favors Forest home attack vs weak Coventry defense; market shortening on Forest confirms edge, tempered by missing Milenkovic and Coventry's fatigue disadvantage.",
   "against": "Forest's home form is inconsistent and Milenkovic's absence weakens defense\u2014small sample xG could overstate true home strength.",
@@ -292,7 +308,12 @@
    "home": "confirmed 3-4-2-1: Sels; Jair Cunha, Diomande, Murillo; Munoz, Schlager, McAtee, Williams; Gibbs-White (c), Ndoye; Delap. Milenkovic (hamstring) and Savona unavailable.",
    "away": "confirmed 3-4-3: Rushworth; Mfuni, Thomas, Pinnock; Yirenkyi, Onyeka, Grimes, Dasilva; Rudoni, Thomas-Asante, Mason-Clark. Awoniyi suspended; Woolfenden, Eccles, Amenda unavailable."
   },
-  "spread": 0.10000000000000003
+  "spread": 0.10000000000000003,
+  "score": "0-1",
+  "outcome": "A",
+  "brier": 0.972939711271541,
+  "brier_mkt": 1.0703636652197064,
+  "profit": 4.5
  },
  {
   "date": "2026-09-19",
@@ -556,7 +577,7 @@
    "D": 0.28116449669646326,
    "A": 0.3016591527399922
   },
-  "tries": 0,
+  "tries": 1,
   "conf": "low",
   "why": "No Elo/xG/points-vs-xPoints data; relied mainly on market odds devig with slight home prior, tempered by fatigue (away better rested) and Osasuna's 3-game losing skid narrative.",
   "against": "Osasuna's collapse (4-0 loss, 3 straight defeats) may mean market still overrates home edge absent real xG confirmation.",
@@ -595,7 +616,7 @@
   "home": "Athletic Club",
   "away": "Alav\u00e9s",
   "kickoff": "2026-09-19T14:15:00Z",
-  "status": "pending",
+  "status": "settled",
   "pick": null,
   "pm": {
    "H": 0.5852842809364548,
@@ -615,7 +636,7 @@
    "D": 0.24305685618729098,
    "A": 0.2108010033444816
   },
-  "tries": 0,
+  "tries": 1,
   "conf": "low",
   "why": "No xG/Elo data; relied on market odds (line moved toward home) blended with neutral home-advantage prior; both teams have defensive uncertainty from CB absences/lineup conflicts.",
   "against": "Market may already overprice Athletic given Alav\u00e9s' underlying defensive quality despite two ACL absences and short-trip fatigue is negligible.",
@@ -646,7 +667,11 @@
    "home": "probable 4-2-3-1: Unai Sim\u00f3n; Jes\u00fas Areso, Yeray \u00c1lvarez, Aymeric Laporte, Yuri Berchiche; \u00cd\u00f1igo Ruiz de Galarreta, Be\u00f1at Gerenabarrena; Robert Navarro, Oihan Sancet, Nico Williams; I\u00f1aki Williams. Absent: Dani Vivian, Unai Eguiluz (injury); some reports also list Gorka Guruzeta and Peio Canales as out, though one confirmed-XI source has Yeray \u00c1lvarez starting, creating minor source conflict.",
    "away": "probable 3-5-2: Antonio Sivera; Nahuel Tenaglia, Ville Koski/centre-back rotation, Jonny Otto; \u00c1ngel P\u00e9rez, Ander Guevara, Antonio Blanco, Carles Ale\u00f1\u00e0, Youssef En-Nesyri/Enr\u00edquez; Toni Mart\u00ednez/Mariano D\u00edaz, Lucas Boy\u00e9. Absent: Facundo Garc\u00e9s, Mikel Rodr\u00edguez (both long-term injury, reported as ACL)."
   },
-  "spread": 0.09900000000000003
+  "spread": 0.09900000000000003,
+  "score": "0-0",
+  "outcome": "D",
+  "brier": 0.9156712235713246,
+  "brier_mkt": 0.9617565799040277
  },
  {
   "date": "2026-09-19",
@@ -654,7 +679,7 @@
   "home": "Celta Vigo",
   "away": "Racing Santander",
   "kickoff": "2026-09-19T16:30:00Z",
-  "status": "pending",
+  "status": "settled",
   "pick": null,
   "pm": {
    "H": 0.5152510262077675,
@@ -674,7 +699,7 @@
    "D": 0.2629870539943164,
    "A": 0.2693874329017998
   },
-  "tries": 0,
+  "tries": 1,
   "conf": "low",
   "why": "No xG/Elo data; relied on market odds tempered by Aspas absence, Celta's rest disadvantage/midweek Europe fatigue, and 7-game winless run.",
   "against": "Market may already price Aspas absence and rest disadvantage; further discounting home could overcorrect vs sharp price.",
@@ -705,6 +730,364 @@
    "home": "confirmed (FotMob) 3-4-3: Radu; N\u00fa\u00f1ez, Lago, C\u00e1ceres; Rueda, Rom\u00e1n, Moriba, \u00c1lvarez; Gonz\u00e1lez, Jutgl\u00e0, Swedberg. Absent: Aspas (injury, out till mid-Oct), El-Abdellaoui/Anta\u00f1\u00f3n (injury)",
    "away": "confirmed/probable (FotMob/press) 4-2-3-1: Agirrezabala; Mantilla, Ram\u00f3n, Belocian, Salinas; Almeida, Mart\u00edn; Garc\u00eda, Canales, Vicente; Zabiri. Absent: Andr\u00e9s Mart\u00edn (injury), Eriksson & Pedro Felipe (doubts/injury)"
   },
-  "spread": 0.061
+  "spread": 0.061,
+  "score": "5-0",
+  "outcome": "H",
+  "brier": 0.42515437387193417,
+  "brier_mkt": 0.3524982659329531
+ },
+ {
+  "date": "2026-09-19",
+  "league": "La Liga",
+  "home": "Getafe",
+  "away": "M\u00e1laga",
+  "kickoff": "2026-09-20T12:00:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.46267087276550994,
+   "D": 0.29442691903259727,
+   "A": 0.24290220820189273
+  },
+  "odds": {
+   "H": 2.1,
+   "D": 3.3,
+   "A": 4.0
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.466335436382755,
+   "D": 0.2872134595162986,
+   "A": 0.24645110410094637
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No xG/Elo data forced reliance on market odds; fatigue slightly favors Getafe (M\u00e1laga's midweek travel), narrative matches evidence (M\u00e1laga's leaky defense), so no override needed.",
+  "against": "Getafe's own injury-hit attack and M\u00e1laga's promotion desperation could produce upset; home edge may be overstated by market bias.",
+  "kill": "Late scratch of Djen\u00e9/Gudelj or further M\u00e1laga CB injury confirmed pre-kickoff cancels this pick.",
+  "fr": 5.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.45,
+    "D": 0.27,
+    "A": 0.28
+   },
+   "regression": {
+    "H": 0.44,
+    "D": 0.29,
+    "A": 0.27
+   },
+   "market": {
+    "H": 0.463,
+    "D": 0.294,
+    "A": 0.243
+   }
+  },
+  "inj": "M\u00e1laga missing multiple defenders (Murillo, Lobete out long-term; Calero, Aznou) worsens a defense already conceding 11 goals. Getafe missing Kiko, Abqar, Uche/Juanmi thins wide/attacking options.",
+  "lineups": {
+   "home": "probable (5-3-2/4-4-2 hybrid under Bordal\u00e1s). Likely XI incl. Soria, Djen\u00e9, Gudelj, Mojica/Garc\u00eda, Boselli/Romero, Terrats/Mangala, Mario Mart\u00edn, \u00dcnal, Satriano, Az\u00f3n. Confirmed absentees: Abdelkabir Abqar, Kiko Femen\u00eda, Christantus Uche, Juanmi (all injury); Zaid Romero returns from suspension.",
+   "away": "probable (4-1-4-1). Likely XI incl. Herrero; Rafita/Puga, Recio, Galilea, Salinas; Izan Merino; Larrubia, Dotor, P. Mart\u00ednez, Lorenzo/Cruz; Chupe. Long absentee list: Diego Murillo (ACL), Julen Lobete (ACL), Fernando Calero, Aar\u00f3n Ochoa, Adam Aznou, Moussa Diarra, Jens-Lys Cajuste."
+  },
+  "spread": 0.03700000000000003
+ },
+ {
+  "date": "2026-09-19",
+  "league": "Serie A",
+  "home": "Fiorentina",
+  "away": "Napoli",
+  "kickoff": "2026-09-20T10:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.2926829268292683,
+   "D": 0.26829268292682923,
+   "A": 0.4390243902439024
+  },
+  "odds": {
+   "H": 3.3,
+   "D": 3.6,
+   "A": 2.2
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.29534146341463413,
+   "D": 0.27014634146341465,
+   "A": 0.43451219512195116
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No xG/xPoints data; Elo and market align on Napoli edge despite injury crisis; fatigue/narrative adjustments roughly cancel, keeping estimate near no-vig market price.",
+  "against": "Napoli's midfield depth loss (McTominay, Meret) could be underpriced, giving Fiorentina a live upset chance the market missed.",
+  "kill": "Confirmed absence of Lobotka or De Bruyne, or unexpected Napoli lineup overhaul, cancels away-lean bet.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.3,
+    "D": 0.27,
+    "A": 0.43
+   },
+   "regression": {
+    "H": 0.3,
+    "D": 0.28,
+    "A": 0.42
+   },
+   "market": {
+    "H": 0.293,
+    "D": 0.268,
+    "A": 0.439
+   }
+  },
+  "inj": "Napoli midfield anchor Scott McTominay is out following a heart-arrhythmia procedure, while keeper Alex Meret (adductor) is also sidelined, forcing Milinkovic-Savic in and Lobotka to shoulder more midfield load.",
+  "lineups": {
+   "home": "probable (4-2-3-1): De Gea; Mario/Jimenez, Dragusin, Ranieri, Viery; Ndour, Fagioli; Mastantuono, Atta, Njie; Pellegrino. No major absences reported beyond rotation.",
+   "away": "probable (4-2-3-1): Milinkovic-Savic; Di Lorenzo, Rrahmani, Marin, Spinazzola/Olivera; Gilmour, Lobotka; Politano, De Bruyne, Vergara; Hojlund. Missing McTominay (heart procedure) and Meret (adductor)."
+  },
+  "spread": 0.007000000000000006
+ },
+ {
+  "date": "2026-09-19",
+  "league": "Bundesliga",
+  "home": "Bayer Leverkusen",
+  "away": "RB Leipzig",
+  "kickoff": "2026-09-20T11:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.4812455767869781,
+   "D": 0.2300070771408351,
+   "A": 0.28874734607218683
+  },
+  "odds": {
+   "H": 1.95,
+   "D": 4.08,
+   "A": 3.25
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.460622788393489,
+   "D": 0.24000353857041756,
+   "A": 0.2993736730360934
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No Elo/xG data forces reliance on market odds; fatigue (4 vs 7 rest days, midweek Europe) trims home edge; both squads missing key creators, adding volatility to a close market-priced fixture.",
+  "against": "Leipzig fully rested, key players (Lukeba, Gruda, R\u00f4mulo) returning fit, could exploit Leverkusen's fatigue and thin wide options for an upset.",
+  "kill": "Schick ruled out matchday morning, or Lukeba/Gruda/R\u00f4mulo scratched despite full training reports.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.45,
+    "D": 0.27,
+    "A": 0.28
+   },
+   "regression": {
+    "H": 0.45,
+    "D": 0.25,
+    "A": 0.3
+   },
+   "market": {
+    "H": 0.481,
+    "D": 0.23,
+    "A": 0.289
+   }
+  },
+  "inj": "Leipzig's Ou\u00e9draogo, Baumgartner and Reitz all miss the midfield engine room; Leverkusen missing wide options Tella/Dou\u00e9 but attack still led by in-form Schick/Diaby.",
+  "lineups": {
+   "home": "probable: Flekken; Quansah, Tapsoba, Medina, Guti\u00e9rrez; Aleix Garc\u00eda, Equi Fern\u00e1ndez; Diaby, Tillman, Moreira; Kofane (or Schick lead line per recent matches). Absences: Gu\u00e9la Dou\u00e9, Ibrahim Maza, Kennet Eichhorn, Nathan Tella, Montrell Culbreath all out injured; Ben Seghir returned from injury but carrying a thigh knock.",
+   "away": "probable: Vandevoordt; Henrichs, Orb\u00e1n, Lukeba, Raum; Banzuzi, El Aynaoui; Gruda, Gomis, Nkunku; Nusa. Absences: Rocco Reitz, Assan Ou\u00e9draogo (shoulder, extended), Christoph Baumgartner, Marc Guiu (hamstring) all out; Lukeba, Gruda and R\u00f4mulo just back in full training."
+  },
+  "spread": 0.04000000000000001
+ },
+ {
+  "date": "2026-09-19",
+  "league": "La Liga",
+  "home": "Atl\u00e9tico Madrid",
+  "away": "Real Madrid",
+  "kickoff": "2026-09-20T14:15:00Z",
+  "status": "pending",
+  "pick": "H",
+  "pm": {
+   "H": 0.2578616352201258,
+   "D": 0.2578616352201258,
+   "A": 0.4842767295597485
+  },
+  "odds": {
+   "H": 3.85,
+   "D": 3.85,
+   "A": 2.05
+  },
+  "ev": 0.06590518867924522,
+  "kelly": 0.0028905784508440886,
+  "pick_odds": 3.85,
+  "p": {
+   "H": 0.27685849056603773,
+   "D": 0.2544584905660377,
+   "A": 0.4686830188679246
+  },
+  "tries": 0,
+  "conf": "medium",
+  "why": "xG gaps force heavy shrinkage; Elo and xG both favor Real, but Atl\u00e9tico's home record and rest edge offset narrative. Fatigue/narrative adjustments cancel, keeping close to market price.",
+  "against": "Atl\u00e9tico's strong Metropolitano record vs Real Madrid and Trent's fitness doubt could swing the match toward a draw or home win, undermining the away-favored edge.",
+  "kill": "Trent Alexander-Arnold ruled out (Dumfries starts) or Juli\u00e1n \u00c1lvarez/Barrios/S\u00f8rloth confirmed unfit pregame - cancels bet.",
+  "fr": 6.0,
+  "dq": "medium",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.3,
+    "D": 0.25,
+    "A": 0.45
+   },
+   "regression": {
+    "H": 0.3,
+    "D": 0.25,
+    "A": 0.45
+   },
+   "market": {
+    "H": 0.258,
+    "D": 0.258,
+    "A": 0.484
+   }
+  },
+  "inj": "Atl\u00e9tico's Juli\u00e1n \u00c1lvarez, Barrios and S\u00f8rloth all injury doubts, thinning attacking/creative depth; Real missing R\u00fcdiger, Mendy, Rodrygo and possibly Trent Alexander-Arnold at full-back.",
+  "lineups": {
+   "home": "probable (4-4-2): Oblak; Llorente, Romero, Le Normand, Grimaldo; Lee Kang-in, Koke, Cardoso, Baena; David, Lookman. Late fitness checks on Juli\u00e1n \u00c1lvarez, Pablo Barrios, Alexander S\u00f8rloth (all muscle issues).",
+   "away": "probable (4-2-3-1): Courtois; Alexander-Arnold/Dumfries, Konat\u00e9, Huijsen, Cucurella; Valverde, Tchouam\u00e9ni; G\u00fcler, Bellingham, Vin\u00edcius; Mbapp\u00e9. Trent Alexander-Arnold's hamstring status uncertain (some lists show Dumfries deputizing); R\u00fcdiger and Mendy remain long-term absentees, Rodrygo out with knee injury."
+  },
+  "spread": 0.04199999999999998
+ },
+ {
+  "date": "2026-09-19",
+  "league": "La Liga",
+  "home": "Villarreal",
+  "away": "Levante",
+  "kickoff": "2026-09-20T16:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.6395657550956665,
+   "D": 0.2018301768129767,
+   "A": 0.15860406809135688
+  },
+  "odds": {
+   "H": 1.54,
+   "D": 4.88,
+   "A": 6.21
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.5697828775478333,
+   "D": 0.22091508840648835,
+   "A": 0.20930203404567843
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No xG/Elo data forces league-average priors, pulling the blend below market's heavy home price; rest-day gap (3 vs 7) and Comesa\u00f1a/Foyth fitness issues justify trimming home probability despite market's confidence.",
+  "against": "Levante's three missing attackers may fully offset Villarreal's minor absences, meaning the market's 64% home price already reflects true strength and my downgrade overcorrects on thin data.",
+  "kill": "If Foyth or Pape Gueye are confirmed OUT (not just doubtful/benched), cancel any Villarreal-backed bet.",
+  "fr": 4.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.45,
+    "D": 0.26,
+    "A": 0.29
+   },
+   "regression": {
+    "H": 0.45,
+    "D": 0.27,
+    "A": 0.28
+   },
+   "market": {
+    "H": 0.64,
+    "D": 0.2,
+    "A": 0.16
+   }
+  },
+  "inj": "Levante missing attackers Eyong, Primo and Sotelo weakens their forward line; Villarreal's Comesa\u00f1a injury and Foyth fitness doubt are the main hosts' concerns.",
+  "lineups": {
+   "home": "probable \u2014 I\u00f1igo P\u00e9rez expected to start Pape Gueye after a two-goal cameo; Santi Comesa\u00f1a ruled out after picking up an injury vs M\u00e1laga, Juan Foyth a doubt with a physical problem.",
+   "away": "probable \u2014 Lu\u00eds Castro missing three confirmed absentees: Etta Eyong (thigh), Primo (shoulder) and Hugo Sotelo (ankle/knee), thinning Levante's attacking options."
+  },
+  "spread": 0.12999999999999998
+ },
+ {
+  "date": "2026-09-19",
+  "league": "La Liga",
+  "home": "Deportivo La Coru\u00f1a",
+  "away": "Real Betis",
+  "kickoff": "2026-09-20T16:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.27606076097275983,
+   "D": 0.26026436865551744,
+   "A": 0.4636748703717228
+  },
+  "odds": {
+   "H": 3.46,
+   "D": 3.67,
+   "A": 2.06
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.2880303804863799,
+   "D": 0.26513218432775876,
+   "A": 0.4468374351858614
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No xG, home Elo, or sharp lines; blended stats/regression/market with slight fatigue tilt to home given Betis's long trip and Deportivo's rest edge.",
+  "against": "Betis's superior form/metrics and near-full squad could dominate regardless of travel, making home tilt overconfident.",
+  "kill": "Aubameyang ruled out or virus sidelines 3+ Deportivo starters before kickoff.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.3,
+    "D": 0.28,
+    "A": 0.42
+   },
+   "regression": {
+    "H": 0.29,
+    "D": 0.27,
+    "A": 0.44
+   },
+   "market": {
+    "H": 0.276,
+    "D": 0.26,
+    "A": 0.464
+   }
+  },
+  "inj": "Angeli\u00f1o's suspension forces Deportivo into makeshift left-back cover (Quagliata); Betis missing Llorente but otherwise near full-strength, limiting overall absence impact on the favorites.",
+  "lineups": {
+   "home": "probable - Antonio Hidalgo projected XI: Leo Roman; Adria Altimira, Jose Gimenez, Miguel Loureiro, Giacomo Quagliata; Luismi Cruz, Lorenzo Amatucci, Riki Rodriguez; David Mella, Yeremay Hernandez; Pierre-Emerick Aubameyang. Absences: Angeli\u00f1o (suspended), No\u00e9 Carrillo (injured); reports of an unspecified virus affecting several squad members.",
+   "away": "probable - Manuel Pellegrini projected XI: \u00c1lvaro Valles; H\u00e9ctor Beller\u00edn, Marc Bartra, Natan, Fran Garc\u00eda; Marc Roca, Pablo Fornals, Isco; Antony, Rodrigo Riquelme, Cucho Hern\u00e1ndez. Absences: Diego Llorente (injury, targeting return in ~3 weeks), Aitor Ruibal (meniscus), Ismael Barea (long-term ACL); no suspensions."
+  },
+  "spread": 0.023999999999999966
  }
 ]
