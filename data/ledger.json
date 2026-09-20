@@ -1,1 +1,347 @@
-[]
+[
+ {
+  "date": "2026-09-20",
+  "league": "Premier League",
+  "home": "AFC Bournemouth",
+  "away": "Liverpool",
+  "kickoff": "2026-09-20T13:00:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.3059482022578503,
+   "D": 0.25291718053315626,
+   "A": 0.44113461720899344
+  },
+  "odds": {
+   "H": 3.1,
+   "D": 3.75,
+   "A": 2.15
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.32978446067735506,
+   "D": 0.2578751541599469,
+   "A": 0.412340385162698
+  },
+  "tries": 0,
+  "conf": "medium",
+  "why": "xG splits give near-even match; market and fatigue (Bournemouth's midweek Europe, 3 rest days) tilt toward Liverpool; narrative and thin data widen uncertainty.",
+  "against": "If Bournemouth's home fatigue is overstated and Liverpool's attack underperforms xG again, home upset value is mispriced.",
+  "kill": "Isak or Van Dijk ruled out from Liverpool's starting XI shortly before kickoff.",
+  "fr": 3.0,
+  "dq": "medium",
+  "reg": "none",
+  "move": "toward away",
+  "views": {
+   "statistician": {
+    "H": 0.4,
+    "D": 0.26,
+    "A": 0.34
+   },
+   "regression": {
+    "H": 0.38,
+    "D": 0.27,
+    "A": 0.35
+   },
+   "market": {
+    "H": 0.306,
+    "D": 0.253,
+    "A": 0.441
+   }
+  },
+  "inj": "Liverpool missing Ekitike (striker depth) and Bradley/Leoni (defense); Bournemouth missing four squad players (Araujo, Kroupi, Adli, Milosavljevic) but starters largely available.",
+  "lineups": {
+   "home": "probable: Petrovi\u0107; Smith, Hill, Silva, Truffert; Cook, Scott; Rayan, Kluivert, Tavernier; Evanilson. Absences: Araujo, Kroupi, Adli, Milosavljevic (all injured)",
+   "away": "probable: Alisson; Ara\u00fajo, Jacquet, Van Dijk, Kerkez; Gravenberch, Szoboszlai, Wirtz; Gakpo, Barcola, Isak. Absences: Bradley, Leoni, Ekitike, Chiesa (injured); Gomez doubtful"
+  },
+  "spread": 0.09400000000000003
+ },
+ {
+  "date": "2026-09-20",
+  "league": "La Liga",
+  "home": "Atl\u00e9tico Madrid",
+  "away": "Real Madrid",
+  "kickoff": "2026-09-20T14:15:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.2556871219774177,
+   "D": 0.2530913136324693,
+   "A": 0.4912215643901129
+  },
+  "odds": {
+   "H": 3.9,
+   "D": 3.94,
+   "A": 2.03
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.2828435609887089,
+   "D": 0.26154565681623465,
+   "A": 0.45561078219505646
+  },
+  "tries": 0,
+  "conf": "medium",
+  "why": "Missing xG/xPoints force Elo+market blend; Elo gap modest, home derby record and slight market drift toward home offset Real's squad depth advantage.",
+  "against": "Real's front four (Mbapp\u00e9, Bellingham, Vin\u00edcius) may overwhelm Atl\u00e9tico regardless of home advantage, making our home uplift overstated versus true talent gap.",
+  "kill": "Juli\u00e1n \u00c1lvarez confirmed OUT after late fitness test fails pre-match check.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "toward home",
+  "views": {
+   "statistician": {
+    "H": 0.36,
+    "D": 0.28,
+    "A": 0.36
+   },
+   "regression": {
+    "H": 0.3,
+    "D": 0.27,
+    "A": 0.43
+   },
+   "market": {
+    "H": 0.27,
+    "D": 0.26,
+    "A": 0.47
+   }
+  },
+  "inj": "Atl\u00e9tico's Juli\u00e1n \u00c1lvarez is a doubt after two missed games with muscle injury, weakening attacking depth; Real Madrid missing Rodrygo, Milit\u00e3o and Mendy thins wide/defensive options.",
+  "lineups": {
+   "home": "probable (4-4-2/3-4-2-1): Oblak; Llorente, Romero/Hancko, Le Normand/Hancko, Pubill/Grimaldo; Koke, Hjulmand, Giuliano Simeone, Baena, Lee Kang-in; David/Lookman. Juli\u00e1n \u00c1lvarez a doubt (muscle injury, missed last two), S\u00f8rloth and Barrios also out injured.",
+   "away": "probable (4-2-3-1): Courtois; Dumfries, Konat\u00e9, Huijsen, Cucurella; Valverde, Tchouam\u00e9ni; G\u00fcler/Diomande, Bellingham, Vin\u00edcius Jr.; Mbapp\u00e9. Rodrygo, Milit\u00e3o and Mendy out injured; Trent Alexander-Arnold/R\u00fcdiger among bench options."
+  },
+  "spread": 0.08999999999999997
+ },
+ {
+  "date": "2026-09-20",
+  "league": "Serie A",
+  "home": "Fiorentina",
+  "away": "Napoli",
+  "kickoff": "2026-09-20T14:00:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.2638290684908369,
+   "D": 0.28166539988176675,
+   "A": 0.4545055316273963
+  },
+  "odds": {
+   "H": 3.79,
+   "D": 3.55,
+   "A": 2.2
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.27691453424541845,
+   "D": 0.28583269994088334,
+   "A": 0.43725276581369815
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No xG/points-vs-xPoints data; Elo near-even after home-adv adjustment, but Napoli's key absentees (GK, CB, doubt on Anguissa) offset Elo edge, pulling final toward market but softened by fatigue/narrative checks.",
+  "against": "Napoli's rest advantage and squad depth could dominate despite absences, making away odds still undervalued by this blend.",
+  "kill": "Napoli's makeshift CB (Buongiorno replacement) or GK Milinkovi\u0107-Savi\u0107 ruled unfit pre-kickoff, or Anguissa confirmed out.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.34,
+    "D": 0.28,
+    "A": 0.38
+   },
+   "regression": {
+    "H": 0.28,
+    "D": 0.3,
+    "A": 0.42
+   },
+   "market": {
+    "H": 0.264,
+    "D": 0.282,
+    "A": 0.455
+   }
+  },
+  "inj": "Napoli missing starting GK Meret (injury) and CB Buongiorno (knee, out to Nov); Zambo Anguissa a muscle doubt. Fiorentina missing LB Parisi long-term; Dragusin doubtful in defense.",
+  "lineups": {
+   "home": "Probable 4-3-3: De Gea; Jo\u00e3o M\u00e1rio/Jimenez, Ranieri, Pongra\u010di\u0107, Viery \u2014 Fagioli, Ndour, Atta \u2014 Mastantuono, Beto/N'Jaye, Pellegrino. Parisi out long-term (LB); Dragusin a fitness doubt.",
+   "away": "Probable 4-3-3 under Allegri: Milinkovi\u0107-Savi\u0107 (in for injured Meret); Di Lorenzo, Rrahmani, Marin/Buongiorno-replacement, Spinazzola \u2014 Lobotka, Zambo Anguissa (doubt, muscle) \u2014 Politano, De Bruyne, Vergara/Alisson Santos, with H\u00f8jlund/target striker."
+  },
+  "spread": 0.07626373626373623
+ },
+ {
+  "date": "2026-09-20",
+  "league": "Bundesliga",
+  "home": "Bayer Leverkusen",
+  "away": "RB Leipzig",
+  "kickoff": "2026-09-20T17:00:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": null,
+  "odds": null,
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.4,
+   "D": 0.27,
+   "A": 0.33
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No elo/xG/odds data; used league-average home-advantage prior, adjusted for Leverkusen's extra fatigue (midweek Europe) and Leipzig's rest edge, plus mild narrative correction for H2H dominance.",
+  "against": "Leipzig sit higher in table with more rest; home edge assumption rests on generic priors, not verified form/xG data.",
+  "kill": "Schick ruled out or scratched from matchday squad before kickoff.",
+  "fr": 4.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.42,
+    "D": 0.27,
+    "A": 0.31
+   },
+   "regression": {
+    "H": 0.42,
+    "D": 0.27,
+    "A": 0.31
+   },
+   "market": {
+    "H": 0.4,
+    "D": 0.27,
+    "A": 0.33
+   }
+  },
+  "inj": "Leipzig missing Baumgartner and Ou\u00e9draogo weakens midfield creativity; Leverkusen's Dou\u00e9 absence forces Quansah into an unfamiliar defensive slot.",
+  "lineups": {
+   "home": "probable - 4-2-3-1: Flekken; Quansah, Tapsoba, Medina, Guti\u00e9rrez; Fern\u00e1ndez, Aleix Garc\u00eda; Diaby, Maza/Moreira, Tillman/Terrier; Schick. Absences: Gu\u00e9la Dou\u00e9, Kennet Eichhorn, Nathan Tella, Montrell Culbreath (all injury)",
+   "away": "probable - 4-3-3: Vandevoordt; Baku/Henrichs, Orb\u00e1n, Lukeba, Raum; Banzuzi/Seiwald, El Aynaoui, Gruda; Gomis, Nkunku, Nusa. Absences: Marc Guiu (hamstring), Rocco Reitz, Viggo Gebel, Assan Ou\u00e9draogo, Christoph Baumgartner (injuries)"
+  }
+ },
+ {
+  "date": "2026-09-20",
+  "league": "Ligue 1",
+  "home": "AJ Auxerre",
+  "away": "Brest",
+  "kickoff": "2026-09-20T16:30:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.33849557522123896,
+   "D": 0.26327433628318586,
+   "A": 0.39823008849557523
+  },
+  "odds": {
+   "H": 2.8,
+   "D": 3.6,
+   "A": 2.38
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.3507477876106195,
+   "D": 0.26463716814159294,
+   "A": 0.3846150442477876
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No Elo/xG data forced reliance on generic home-advantage priors and current consensus odds; fatigue (Brest travel) and narrative-hype adjustments offset each other, keeping result near market pricing.",
+  "against": "Market may already fully price Brest's CB absences and Auxerre's poor form, making the home tilt an illusion from stale opening-odds comparison.",
+  "kill": "If Brest's backup CBs are replaced by returning Chardonnet/Diambou, or Auxerre's front three is scratched, cancel bet.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.4,
+    "D": 0.27,
+    "A": 0.33
+   },
+   "regression": {
+    "H": 0.339,
+    "D": 0.264,
+    "A": 0.398
+   },
+   "market": {
+    "H": 0.339,
+    "D": 0.264,
+    "A": 0.398
+   }
+  },
+  "inj": "Brest missing CBs Chardonnet & Diambou weakens defense/set-pieces vs Auxerre's counter-attack; Auxerre without Siwe & Fofana thins depth but starters largely available.",
+  "lineups": {
+   "home": "probable: back-three (3-4-2-1), likely Diop; Akpa, Sy, Tuanzebe/Piedfort; Makosso, Danois/Oppegard, Faivre; Namaso, Archer, Lascary. Absences: Telli Siwe, S\u00e9kou Fofana sidelined.",
+   "away": "probable: 4-2-3-1, likely Selvik; Lala, Le Guen, Lloris, Locko; Chotard, Tousart; Doumbia, Magnetti/Mboup, Versini; Ajorque. Absences: Brendan Chardonnet (calf) and Mamady Diambou (ankle) confirmed out; some previews also list Hugo Magnetti among doubts."
+  },
+  "spread": 0.06133866133866139
+ },
+ {
+  "date": "2026-09-20",
+  "league": "Premier League",
+  "home": "Leeds United",
+  "away": "Crystal Palace",
+  "kickoff": "2026-09-20T13:00:00Z",
+  "status": "pending",
+  "pick": null,
+  "pm": {
+   "H": 0.5467811158798284,
+   "D": 0.25236051502145923,
+   "A": 0.20085836909871244
+  },
+  "odds": {
+   "H": 1.8,
+   "D": 3.9,
+   "A": 4.9
+  },
+  "ev": null,
+  "kelly": null,
+  "pick_odds": null,
+  "p": {
+   "H": 0.5133905579399142,
+   "D": 0.2561802575107296,
+   "A": 0.23042918454935624
+  },
+  "tries": 0,
+  "conf": "low",
+  "why": "No xG/xPoints data; Elo shows near parity, market favors Leeds via odds; fatigue (rest+Europe) tilts slightly to Leeds; Palace defense/injuries add downside risk.",
+  "against": "Market may already price Palace's disarray fully; Leeds' home edge could be overstated given stale Elo and small sample form.",
+  "kill": "Benitez ruled out late or Calvert-Lewin/Okafor both scratched pre-kickoff \u2014 cancels edge.",
+  "fr": 6.0,
+  "dq": "low",
+  "reg": "none",
+  "move": "unknown",
+  "views": {
+   "statistician": {
+    "H": 0.41,
+    "D": 0.26,
+    "A": 0.33
+   },
+   "regression": {
+    "H": 0.4,
+    "D": 0.27,
+    "A": 0.33
+   },
+   "market": {
+    "H": 0.547,
+    "D": 0.252,
+    "A": 0.201
+   }
+  },
+  "inj": "Palace missing keeper Henderson and defender Disasi (suspended) worsens an already leaky defense (11 conceded in 4). Leeds missing Wilson but has deep attacking cover.",
+  "lineups": {
+   "home": "probable (3-5-2): Trafford; Justin, Elvedi, Muharemovic; Bogle, Stach, Ampadu, Tanaka, Gudmundsson; Calvert-Lewin, Okafor. Absences: Harry Wilson (quad), Joe Rodon (hamstring), Mateo Joseph (knee).",
+   "away": "probable (3-4-2-1): Benitez; Richards, Tomiyasu/Disasi(susp), Ahanor; Khalaili, Timber, Wharton, Mitchell; Kamada, Pino; Strand Larsen. Absences: Dean Henderson (out, Benitez starts), Axel Disasi (suspended)."
+  },
+  "spread": 0.129
+ }
+]
